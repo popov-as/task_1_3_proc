@@ -17,9 +17,9 @@ public class Main
         float segmentArea = (bigCircleArea - smallCircleArea) / PART_COUNT;  // Площадь сегмента между большим и малым кругом
         float cornerArea = (squareArea - bigCircleArea) / PART_COUNT;        // Площадь угла квадрата вне круга
 
-        float areaOfPicture1 = getArea(pieArea, segmentArea, cornerArea, 3, + 0, 4);
-        float areaOfPicture2 = getArea(pieArea, segmentArea, cornerArea, 6, + 1, 1);
-        float areaOfPicture3 = getArea(pieArea, segmentArea, cornerArea, 2, + 6, 2);
+        float areaOfPicture1 = getArea(pieArea, segmentArea, cornerArea, 3, 0, 4);
+        float areaOfPicture2 = getArea(pieArea, segmentArea, cornerArea, 6, 1, 1);
+        float areaOfPicture3 = getArea(pieArea, segmentArea, cornerArea, 2, 6, 2);
 
         printArea("1", areaOfPicture1);
         printArea("2", areaOfPicture2);
